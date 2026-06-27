@@ -2,7 +2,7 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, Helvetica, sans-serif;
+font-family:'Poppins', 'Arial', 'Helvetica', 'sans-serif';
 }
 
 body{
@@ -20,7 +20,6 @@ display:flex;
 flex-direction:column;
 background:rgba(255,255,255,0.12);
 border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,.2);
 }
 
 h1{
@@ -43,18 +42,6 @@ color:#f1e8ff;
 font-size:22px;
 }
 
-.descricao{
-text-align:center;
-margin-bottom:20px;
-color:#e8d9ff;
-}
-
-.total-venda{
-font-size:22px;
-font-weight:bold;
-margin:20px 0;
-}
-
 footer{
 margin-top:40px;
 text-align:center;
@@ -62,24 +49,28 @@ color:#e8d9ff;
 font-size:18px;
 }
 
-.logo{
+.logo-acai{
 display:flex;
 justify-content:center;
 align-items:center;
 margin-bottom:25px;
 }
 
-.logo img{
-width:300px;
-max-width:100%;
-border-radius:15px;
+.logo-acai img{
+width:200px;
+height:auto;        
+margin-bottom:15px;
+}
+
+.logo-acai img:hover{
+cursor:pointer;
 }
 
 label{
 display:block;
 margin-top:15px;
 margin-bottom:8px;
-font-weight:600;
+font-weight:bold;
 color:#f1e8ff;
 }
 
@@ -87,7 +78,6 @@ input,
 select,
 textarea{
 width:100%;
-max-width:500px;
 padding:12px;
 border:none;
 border-radius:10px;
@@ -108,7 +98,6 @@ transition:0.3s;
 
 button:hover{
 background-color:#e7d8ff;
-transform:scale(1.05);
 }
 
 a{
@@ -131,14 +120,11 @@ border-radius:20px;
 background:white;
 color:#5d0db8;
 font-size:22px;
-font-weight:600;
+font-weight:bold;
 transition:0.3s;
-box-shadow:0 10px 25px rgba(0,0,0,.15);
 }
 
 .menu-principal button:hover{
-transform:translateY(-5px);
-box-shadow:0 15px 35px rgba(0,0,0,.25);
 background:#f8f1ff;
 }
 
@@ -167,7 +153,6 @@ color:black;
 border-collapse:collapse;
 margin-top:20px;
 border-radius:10px;
-overflow:hidden;
 }
 
 th{
